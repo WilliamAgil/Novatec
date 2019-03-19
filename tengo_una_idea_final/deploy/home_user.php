@@ -22,23 +22,130 @@
             </div>
             <div class="container-edit">
                 <div class="container-btn-edicion">
-                    <button> <i class="fas fa-cog icon-edit"></i> Editar<i class="fas fa-plus icon-seemore-user"></i></button>
+                    <button class="btn-edition-toogle"> <i class="fas fa-cog icon-edit"></i> Editar<i class="fas fa-plus icon-seemore-user"></i></button>
+                    <div class="container-edit-datos">
+                        <div class=" box-datose">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class=" box-datose">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
+                            </div>
+                        </div>
+                        <div class=" box-datose">
+                        <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contraseña">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-btn-acept-datos">
+                        <button type="submit" class="btn btn-lg btn-submit-duser">Aceptar</button>
+                    </div>
                 </div>
+                    
                 <div class="container-volveri">
                     <a href="home.php"><i class="fas fa-arrow-left"></i> volver al <span class="return-index">inicio</span></a> 
                 </div>
             </div>
-       
-
-    
-    </div>
-    <div class="container-user2"></div>
-        <div class="titulo-ideas-user"></div>
-        <div class="list-ideas-user">
-            <div class="caja1-list"></div>
-            <div class="caja2-list"></div>
-            <div class="caja3-list"></div>
-            <div class="caja4-list"></div>
+        </div>
+        <div class="container-user2">
+            <div class="titulo-ideas-user"><b>Mis Ideas</b></div>
+            <div class="list-ideas-user">
+                <div class="caja1-list caja-list">
+                    <div class="container-all-idea-user postuladas">
+                        <span>Ideas Postuladas</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="list-allideas">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Primera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Segunda Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Tercera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="caja2-list caja-list">
+                <div class="container-all-idea-user postuladas">
+                        <span>Ideas Postuladas</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="list-allideas">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Primera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Segunda Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Tercera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="caja3-list caja-list">
+                <div class="container-all-idea-user postuladas">
+                        <span>Ideas Postuladas</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="list-allideas">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Primera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Segunda Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Tercera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div class="caja4-list caja-list">
+                <div class="container-all-idea-user postuladas">
+                        <span>Ideas Postuladas</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="list-allideas">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Primera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Segunda Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                            <li class="list-group-item">Tercera Idea
+                                <i class="far fa-eye"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

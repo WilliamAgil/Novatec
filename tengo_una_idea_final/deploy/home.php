@@ -2,7 +2,8 @@
 session_start();
 if(!isset($_SESSION["id_user"]) || $_SESSION["id_user"]==null){
 	print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
-	}
+    }
+include "php/conexion.php";
 ?>
 
 <html>
@@ -25,19 +26,27 @@ if(!isset($_SESSION["id_user"]) || $_SESSION["id_user"]==null){
                             <img src="img/perfil/userAdmon.png" alt="" width>
                         </div>
                         <div id="login" align="left">
-                            <p>ID de Cuenta: 
+                        
+                            <p>Nombre de Usuario: 
                                 <b><?php
+                                    $usuario = $_SESSION["id_user"];
+                                    $mostrarususario = mysqli_query($con, "SELECT first_name, last_name FROM users WHERE id_user=$usuario");
+                                    mysqli_data_seek ($mostrarususario, 0);
 
-                                    echo $_SESSION["id_user"];
-                                   
-                                    
-                                ?></b>
+                                    $extraido= mysqli_fetch_array($mostrarususario);
+                                    echo $extraido['first_name']." ".$extraido['last_name'].'<br/>';
+                                    echo 'lsito';
+                                    //echo $_SESSION["id_user"];
+                                ?>
+                                </b>
                             .</p> 
                         </div>
                     </div>
                 </div>
                 <div class="container-chats-ideas">	
                     <button><a href="php/todos.php">Todos los usuarios registrados</a></button>
+
+                    
                 </div>
             </div>
             <div class="container-board-home">
