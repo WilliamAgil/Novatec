@@ -384,7 +384,7 @@
 }
 
 .container-g-user .container-user1 .container-imagen {
-  background: #263238;
+  background: lightcyan;
   width: 100%;
   color: white;
 }
@@ -406,12 +406,15 @@
   border-bottom: 0.5px solid #555;
   border-left: none;
   border-right: none;
-  background-color: pink;
+  background-color: #263238;
   height: 40px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif, Verdana;
+  font-size: 1.2rem;
 }
 
 .container-g-user .container-user1 .container-edit .container-btn-edicion button .icon-edit {
@@ -435,11 +438,21 @@
   margin: 20px;
   border-radius: 2px;
   border: 0.5px solid #555;
+  border: none;
 }
 
 .container-g-user .container-user1 .container-edit .container-edit-datos .box-datose .form-group {
   margin-bottom: 0;
   font-family: 'Roboto', sans-serif, Verdana;
+  border-top: none;
+}
+
+.container-g-user .container-user1 .container-edit .container-edit-datos .box-datose .form-group .form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.5px solid #444;
+  border-radius: 0;
 }
 
 .container-g-user .container-user1 .container-edit .container-btn-edicion .container-btn-acept-datos {
@@ -448,16 +461,28 @@
 }
 
 .container-g-user .container-user1 .container-edit .container-btn-edicion .container-btn-acept-datos .btn-submit-duser {
-  border: 0.5px solid #555;
+  border: 3px solid #ffa000;
   width: 100%;
-  background-color: gray;
   height: 30px;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   margin-top: 15%;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #555;
+  border-color: #555;
+  padding: 14px;
+}
+
+.container-g-user .container-user1 .container-edit .container-btn-edicion .container-btn-acept-datos .btn-submit-duser:hover {
+  background-color: #263238;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  border: 3px solid #263238;
+  color: #fff;
+  transition: 0.2s;
 }
 
 .container-g-user .container-user1 .container-edit .container-volveri {
@@ -469,9 +494,9 @@
 }
 
 .container-g-user .container-user2 {
-  background: #fff;
+  background-image: url("../img/texturas/ww.png");
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
   position: absolute;
   right: 0;
   width: 77%;
@@ -504,6 +529,10 @@
   border: 0.2px solid #888;
   padding: 10px 15px 10px 15px;
   cursor: pointer;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 160, 0, 0.5);
+  font-weight: 600;
+  color: #444;
 }
 
 .container-g-user .container-user2 .list-ideas-user .caja-list {
@@ -544,6 +573,10 @@
 
 .container-g-user .container-user2 .list-ideas-user .caja-list .list-allideas .list-group .list-group-item .fa-trash-alt {
   font-size: 1.3rem;
+}
+
+.container-g-user .container-user2 .list-ideas-user .caja-list .list-allideas .list-group .list-group-item .eye-ideas {
+  margin-right: 0;
 }
 
 /* Estilos de las fuentes*/

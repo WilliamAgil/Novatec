@@ -78,22 +78,19 @@
                 </div>
                 <div class="caja2-list caja-list">
                 <div class="container-all-idea-user postuladas">
-                        <span>Ideas Postuladas</span>
+                        <span>Ideas Aprobadas</span>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="list-allideas">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Primera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Segunda Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Tercera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                            
                         </ul>
@@ -101,22 +98,19 @@
                 </div>
                 <div class="caja3-list caja-list">
                 <div class="container-all-idea-user postuladas">
-                        <span>Ideas Postuladas</span>
+                        <span>Ideas Rechazadas</span>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="list-allideas">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Primera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Segunda Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Tercera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                            
                         </ul>
@@ -124,22 +118,19 @@
                 </div>
                 <div class="caja4-list caja-list">
                 <div class="container-all-idea-user postuladas">
-                        <span>Ideas Postuladas</span>
+                        <span>Ideas en Debare</span>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="list-allideas">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Primera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Segunda Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                             <li class="list-group-item">Tercera Idea
-                                <i class="far fa-eye"></i>
-                                <i class="far fa-trash-alt"></i>
+                                <i class="far fa-eye eye-ideas"></i>
                             </li>
                            
                         </ul>
